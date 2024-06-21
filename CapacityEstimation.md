@@ -57,6 +57,8 @@ Let's take 50:1 for now. That means ~50M read calls for 1M write calls
 <mark> **Reads** ~ 500 / sec</mark>
 
 
+---
+
 ## 2. Storage
 
 We have to estimate how much data we have to store at any given moment
@@ -111,6 +113,8 @@ Hence, in total we are going to need = 3 X 20
 
 That's all we need for storage estimation
 
+
+---
 ## 3. Bandwidth
 
 It is the amount of data transferred per second
@@ -127,6 +131,7 @@ Write frequency X average data size of 1 paste = 10 * 10 kB = 100 kB per second
 ### <u>Outgoing data per second</u>:
 
 Read frequency = 50 X Write = 5 MB
+
 
 
 
