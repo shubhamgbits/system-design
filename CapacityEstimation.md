@@ -47,7 +47,7 @@ Let's take 50:1 for now. That means ~50M read calls for 1M write calls
 
 | Million/Day|  |
 | ----------- | ----------- |
-| 1 million / day | 12 / sec |
+| 1 million / day | 12 / sec ~ 10/sec|
 | 1 million / day | 700 / min |
 | 1 million / day | 4200 / hour |
 
